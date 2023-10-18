@@ -37,7 +37,7 @@ In-depth player stat predictor
 - Weather (Snow games, rain games, etc) if possible
 - Indoor vs outdoor QB performace (some QBs are terrible outdoor but their team has an indoor stadium)
 
-## **Object Classes:**
+## **Object Classes**
 
 ### Team Class
 
@@ -51,7 +51,7 @@ In-depth player stat predictor
     - D-line rank
 - Current players or all players (?)
 
-## Coach class
+### Coach class
 
 - offensive / defensive
 - offense
