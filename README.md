@@ -1,6 +1,7 @@
-# Player Stat Machine Learning Project
+# Player Stat Machine Learning Application / Website
 
-In-depth player stat predictor
+In-depth player stat predictor using machine learning to predict stats based on ...
+... player data, coaches, weather, etc.
 
 # To-Do
 
