@@ -1,0 +1,15 @@
+# List of python libraries
+
+# general libraries
+numpy
+# time
+# math
+
+# webscraping
+requests
+beautifulsoup4
+matplotlib
+
+# machine learning specific
+tensorflow
+torch

@@ -1,0 +1,4 @@
+This installs all python dependencies.
+
+Go to the terminal and CD to /Player Stat Project/ProjectDependencies/
+In terminal type/paste in `sudo bash projectInit.sh` and run
