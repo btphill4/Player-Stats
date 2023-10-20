@@ -32,7 +32,7 @@ def main():
     print(f"Scraping: {testUrl}")
     print("response get code:", response)
 
-    print("Num of BS comments:",len(comments))
+    print("Num of comments:",len(comments))
     print()
 
     # wanted keywords (coding languages)
@@ -65,10 +65,10 @@ def main():
     print(keywords)
 
     # plt.bar(x-axis, y-axis) | keywords.keys = left side of dictionary | keyword.values = right side 
-    plt.bar(keywords.keys(), keywords.values() )
-    plt.xlabel("Language")
-    plt.ylabel("# of mentions")
-    plt.show()
+    # plt.bar(keywords.keys(), keywords.values() )
+    # plt.xlabel("Language")
+    # plt.ylabel("# of mentions")
+    # plt.show()
 
 if __name__ == "__main__":
     main()
