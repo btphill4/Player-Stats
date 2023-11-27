@@ -5,6 +5,8 @@ import requests
 from bs4 import BeautifulSoup as bs
 import matplotlib.pyplot as plt 
 import numpy as np
+import csv
+
 # Request docs: https://requests.readthedocs.io/en/latest/
 # beautiful soup docs: https://www.crummy.com/software/BeautifulSoup/bs4/doc/ 
 # matplotlib docs: https://matplotlib.org/stable/index.html
@@ -409,6 +411,42 @@ DefensiveTeams = get_DSTs()
 
 
 print("End Scraping Tables")
+
+
+
+
+# export to csv file
+with open("csvFiles/quaterbacks.csv", 'w', newline='') as file:
+    writer = csv.writer(file)
+    for qb in QuaterBacks:
+        writer.writerow(qb)
+
+with open("csvFiles/runningbacks.csv", 'w', newline='') as file:
+    writer = csv.writer(file)
+    for rb in RunningBacks:
+        writer.writerow(rb)
+
+with open("csvFiles/widerecievers.csv", 'w', newline='') as file:
+    writer = csv.writer(file)
+    for wr in WideRecievers:
+        writer.writerow(wr)
+
+with open("csvFiles/tightends.csv", 'w', newline='') as file:
+    writer = csv.writer(file)
+    for te in Tightends:
+        writer.writerow(te)
+
+with open("csvFiles/kickers.csv", 'w', newline='') as file:
+    writer = csv.writer(file)
+    for k in Kickers:
+        writer.writerow(k)
+
+with open("csvFiles/defense.csv", 'w', newline='') as file:
+    writer = csv.writer(file)
+    for defe in DefensiveTeams:
+        writer.writerow(defe)
+
+
 
 # Check run time at end
 # truncates value to 3 decimals
